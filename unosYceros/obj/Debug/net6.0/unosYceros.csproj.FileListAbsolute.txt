@@ -1,0 +1,14 @@
+D:\Programacion\Programacion\C#\unosYceros\bin\Debug\net6.0\unosYceros.exe
+D:\Programacion\Programacion\C#\unosYceros\bin\Debug\net6.0\unosYceros.deps.json
+D:\Programacion\Programacion\C#\unosYceros\bin\Debug\net6.0\unosYceros.runtimeconfig.json
+D:\Programacion\Programacion\C#\unosYceros\bin\Debug\net6.0\unosYceros.dll
+D:\Programacion\Programacion\C#\unosYceros\bin\Debug\net6.0\unosYceros.pdb
+D:\Programacion\Programacion\C#\unosYceros\obj\Debug\net6.0\unosYceros.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion\Programacion\C#\unosYceros\obj\Debug\net6.0\unosYceros.AssemblyInfoInputs.cache
+D:\Programacion\Programacion\C#\unosYceros\obj\Debug\net6.0\unosYceros.AssemblyInfo.cs
+D:\Programacion\Programacion\C#\unosYceros\obj\Debug\net6.0\unosYceros.csproj.CoreCompileInputs.cache
+D:\Programacion\Programacion\C#\unosYceros\obj\Debug\net6.0\unosYceros.dll
+D:\Programacion\Programacion\C#\unosYceros\obj\Debug\net6.0\refint\unosYceros.dll
+D:\Programacion\Programacion\C#\unosYceros\obj\Debug\net6.0\unosYceros.pdb
+D:\Programacion\Programacion\C#\unosYceros\obj\Debug\net6.0\unosYceros.genruntimeconfig.cache
+D:\Programacion\Programacion\C#\unosYceros\obj\Debug\net6.0\ref\unosYceros.dll
