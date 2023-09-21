@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
@@ -23,3 +24,30 @@ Global
 		SolutionGuid = {C06801ED-EBB3-42EF-A685-C16841372272}
 	EndGlobalSection
 EndGlobal
+=======
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unosYceros", "unosYceros.csproj", "{909A4B08-2956-4BB8-9408-1D8574C8FDD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{909A4B08-2956-4BB8-9408-1D8574C8FDD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909A4B08-2956-4BB8-9408-1D8574C8FDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909A4B08-2956-4BB8-9408-1D8574C8FDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909A4B08-2956-4BB8-9408-1D8574C8FDD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C06801ED-EBB3-42EF-A685-C16841372272}
+	EndGlobalSection
+EndGlobal
+>>>>>>> 155e288acf783cfcbb5212d2cdef77cad8a1eacf
