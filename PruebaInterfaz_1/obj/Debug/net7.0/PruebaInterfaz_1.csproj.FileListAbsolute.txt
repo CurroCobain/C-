@@ -1,0 +1,14 @@
+D:\Programacion\Segundo\C#\PruebaInterfaz_1\bin\Debug\net7.0\PruebaInterfaz_1.exe
+D:\Programacion\Segundo\C#\PruebaInterfaz_1\bin\Debug\net7.0\PruebaInterfaz_1.deps.json
+D:\Programacion\Segundo\C#\PruebaInterfaz_1\bin\Debug\net7.0\PruebaInterfaz_1.runtimeconfig.json
+D:\Programacion\Segundo\C#\PruebaInterfaz_1\bin\Debug\net7.0\PruebaInterfaz_1.dll
+D:\Programacion\Segundo\C#\PruebaInterfaz_1\bin\Debug\net7.0\PruebaInterfaz_1.pdb
+D:\Programacion\Segundo\C#\PruebaInterfaz_1\obj\Debug\net7.0\PruebaInterfaz_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programacion\Segundo\C#\PruebaInterfaz_1\obj\Debug\net7.0\PruebaInterfaz_1.AssemblyInfoInputs.cache
+D:\Programacion\Segundo\C#\PruebaInterfaz_1\obj\Debug\net7.0\PruebaInterfaz_1.AssemblyInfo.cs
+D:\Programacion\Segundo\C#\PruebaInterfaz_1\obj\Debug\net7.0\PruebaInterfaz_1.csproj.CoreCompileInputs.cache
+D:\Programacion\Segundo\C#\PruebaInterfaz_1\obj\Debug\net7.0\PruebaInterfaz_1.dll
+D:\Programacion\Segundo\C#\PruebaInterfaz_1\obj\Debug\net7.0\refint\PruebaInterfaz_1.dll
+D:\Programacion\Segundo\C#\PruebaInterfaz_1\obj\Debug\net7.0\PruebaInterfaz_1.pdb
+D:\Programacion\Segundo\C#\PruebaInterfaz_1\obj\Debug\net7.0\PruebaInterfaz_1.genruntimeconfig.cache
+D:\Programacion\Segundo\C#\PruebaInterfaz_1\obj\Debug\net7.0\ref\PruebaInterfaz_1.dll
