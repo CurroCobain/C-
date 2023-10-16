@@ -135,8 +135,8 @@ internal class Punto : IGrafico  // clase  Punto
     }
     public Punto (int x, int y) // constructor de la clase
     {
-        this._x = x;
-        this._y = y;
+        this.X = x;
+        this.Y = y;
     }
     public virtual string Dibujar() // método dibujar 
     {
