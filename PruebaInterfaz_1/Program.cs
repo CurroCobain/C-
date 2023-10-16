@@ -356,7 +356,7 @@ public class ConsoleHelper
     }
     public static int ReadInput()
     {
-        Console.WriteLine("ingresa un valor numérico");
+        Console.WriteLine("ingrese un valor numérico");
         string input = Console.ReadLine();
         while(true)
         {
