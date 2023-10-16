@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 
 int x;
 int y;
@@ -10,35 +10,35 @@ Console.WriteLine("A continuación se creará un grafico compuesto con un punto,
 try
 {
     //creamos el punto
-    Console.WriteLine("Introduzca los datos del punto, recuerde que el tamaño del editor es de 800 x 600");
-    Console.WriteLine("Introduzca el valor de x: ");
-    x = int.Parse(Console.ReadLine());
-    Console.WriteLine("Introduzca el valor de y: ");
-    y = int.Parse(Console.ReadLine());
+    ConsoleHelper.ShowMessage("punto");
+    ConsoleHelper.ShowMessage("x");
+    x = ConsoleHelper.ReadInput();
+    ConsoleHelper.ShowMessage("y");
+    y = ConsoleHelper.ReadInput();
     Punto punto;
     punto = new Punto(x, y); // prueba de la clase Punto con los valores tomados por consola
 
     //creamos el círculo
-    Console.WriteLine("Introduzca los datos del círculo, recuerde que el tamaño del editor es de 800 x 600");
-    Console.WriteLine("Introduzca el valor de x: ");
-    x = int.Parse(Console.ReadLine());
-    Console.WriteLine("Introduzca el valor de y: ");
-    y = int.Parse(Console.ReadLine());
-    Console.WriteLine("Introduzca el radio del círculo: ");
-    radio = int.Parse(Console.ReadLine());
+    ConsoleHelper.ShowMessage("círculo");
+    ConsoleHelper.ShowMessage("x");
+    x = ConsoleHelper.ReadInput();
+    ConsoleHelper.ShowMessage("y");
+    y = ConsoleHelper.ReadInput();
+    ConsoleHelper.ShowMessage("radio");
+    radio = ConsoleHelper.ReadInput();
     Circulo circulo;
     circulo = new Circulo(x, y, radio); // prueba de la clase círculo con los datos tomados por consola
 
     //creamos el rectángulo
-    Console.WriteLine("Introduzca los datos del rectángulo, recuerde que el tamaño del editor es de 800 x 600");
-    Console.WriteLine("Introduzca el valor de x: ");
-    x = int.Parse(Console.ReadLine());
-    Console.WriteLine("Introduzca el valor de y: ");
-    y = int.Parse(Console.ReadLine());
-    Console.WriteLine("Introduzca el ancho del rectángulo: ");
-    ancho = int.Parse(Console.ReadLine());
-    Console.WriteLine("Introduzca el alto del rectángulo: ");
-    alto = int.Parse(Console.ReadLine());
+    ConsoleHelper.ShowMessage("rectángulo");
+    ConsoleHelper.ShowMessage("x");
+    x = ConsoleHelper.ReadInput();
+    ConsoleHelper.ShowMessage("y");
+    y = ConsoleHelper.ReadInput();
+    ConsoleHelper.ShowMessage("ancho");
+    ancho = ConsoleHelper.ReadInput();
+    ConsoleHelper.ShowMessage("alto");
+    alto = ConsoleHelper.ReadInput();
     Rectangulo rectangulo;
     rectangulo = new Rectangulo(x, y, ancho, alto); // prueba de la clase rectángulo con los datos tomados por consola
 
@@ -319,5 +319,56 @@ internal class GraficoCompuesto : IGrafico // clase GraficoCompuesto
     {
         this.componentes.Add(grafico);
         Console.WriteLine("Gráfico añadido");
+    }
+}
+
+public class ConsoleHelper
+{
+    public static void ShowMessage(string message) // método para mostrar los string que más se repetiran en el main
+    {
+        switch (message)
+        {
+            case "punto":
+                Console.WriteLine("Introduzca los datos del punto, recuerde que el tamaño del editor es de 800 x 600");
+                break;
+            case "círculo":
+                Console.WriteLine("Introduzca los datos del círculo, recuerde que el tamaño del editor es de 800 x 600");
+                break;
+            case "rectángulo":
+                Console.WriteLine("Introduzca los datos del rectángulo, recuerde que el tamaño del editor es de 800 x 600");
+                break;
+            case "x":
+                Console.WriteLine("Introduzca el valor de x: ");
+                break;
+            case "y":
+                Console.WriteLine("Introduzca el valor de y: ");
+                break;
+            case "radio":
+                Console.WriteLine("Introduzca el radio del círculo: ");
+                break;
+            case "ancho":
+                Console.WriteLine("Introduzca el ancho del rectángulo: ");
+                break;
+            case "alto":
+                Console.WriteLine("Introduzca el alto del rectángulo: ");
+                break;
+        }
+    }
+    public static int ReadInput()
+    {
+        Console.WriteLine("ingresa un valor numérico");
+        string input = Console.ReadLine();
+        while(true)
+        {
+            if(int.TryParse(input, out int result))
+            {
+                return result;
+            }
+            else
+            {
+                Console.WriteLine("Debe introducir un valor numérico. Inténtelo de nuevo ");
+                input = Console.ReadLine();
+            }
+        }
     }
 }
